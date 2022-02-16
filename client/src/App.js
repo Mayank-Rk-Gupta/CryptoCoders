@@ -86,7 +86,7 @@ const App = () => {
             </div>
             <div className="col-8 d-flex justify-content-center flex-wrap">
               {Coders.map((coder, key)=><div className="d-flex flex-column align-items-center" key={key}>
-                    <img width="150" src={`https://avatars.dicebear.com/api/pixel-art/${coder.replace("#", "")}.svg`} />
+                    <img width="100" src={`https://avatars.dicebear.com/api/pixel-art/${coder.replace("#", "")}.svg`} />
                     <span>{coder}</span>
               </div>)}
             </div>
